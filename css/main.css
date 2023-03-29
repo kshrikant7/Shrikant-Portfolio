@@ -1635,7 +1635,7 @@ input::-moz-focus-inner {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 40px;
 }
 
@@ -2054,7 +2054,7 @@ input::-moz-focus-inner {
     position: absolute;
     top: 40%;
     left: 40%;
-    bottom: 10%;
+    bottom: 30%;
   }
 
   .intro-pic::before {
@@ -2081,7 +2081,33 @@ input::-moz-focus-inner {
     position: absolute;
     top: 40%;
     left: 40%;
-    bottom: 10%;
+    bottom: 30%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+
+}
+
+@media screen and (max-width:1080px) {
+  .intro-content {
+    max-width: 1000px;
+  }
+
+  .intro-text h3 {
+    font-size: 2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    bottom: 30%;
   }
 
   .intro-pic::before {
@@ -2201,9 +2227,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 40%;
-    bottom: 5%;
+    bottom: 10%;
   }
 
   .intro-pic::before {
@@ -2253,6 +2279,24 @@ input::-moz-focus-inner {
 }
 
 @media screen and (max-width:350px) {
+  .intro-text h1 {
+    font-size: 4.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    bottom: 10%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+
+}
+
+@media screen and (max-width:300px) {
   .intro-text h1 {
     font-size: 4.2rem;
   }
@@ -3483,6 +3527,13 @@ input::-moz-focus-inner {
     font-size: 2rem;
   }
 
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
 }
 
 @media screen and (max-width:1200px) {
@@ -3492,6 +3543,13 @@ input::-moz-focus-inner {
 
   .contact-infos {
     margin-top: 9.6rem;
+  }
+
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
 }
@@ -3509,6 +3567,34 @@ input::-moz-focus-inner {
     font-size: 1.8rem;
   }
 
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .s-contact {
+    padding-top: 16rem;
+  }
+
+  .contact-email {
+    font-size: 9vw;
+  }
+
+  .contact-infos {
+    font-size: 3.6rem;
+  }
+
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
 }
 
 @media screen and (max-width:800px) {
@@ -3524,6 +3610,35 @@ input::-moz-focus-inner {
     font-size: 3.6rem;
   }
 
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+}
+
+@media screen and (max-width:700px) {
+  .s-contact {
+    padding-top: 16rem;
+  }
+
+  .contact-email {
+    font-size: 9vw;
+  }
+
+  .contact-infos {
+    font-size: 3.6rem;
+  }
+
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
 }
 
 @media screen and (max-width:600px) {
@@ -3535,11 +3650,25 @@ input::-moz-focus-inner {
     display: none;
   }
 
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
 }
 
 @media screen and (max-width:400px) {
   .contact-infos {
     font-size: 3rem;
+  }
+
+  .contact-social ul li::before {
+    content: "/";
+    color: #cf1767;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
 }
