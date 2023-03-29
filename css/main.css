@@ -2201,9 +2201,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 40%;
-    bottom: 10%;
+    bottom: 5%;
   }
 
   .intro-pic::before {
