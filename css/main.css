@@ -1824,7 +1824,24 @@ input::-moz-focus-inner {
   .header-main-nav li {
     margin: 0 1.4rem;
   }
+}
 
+@media screen and (max-width:1080px) {
+  .header-main-nav {
+    font-size: 12px;
+  }
+
+  .header-main-nav li {
+    margin: 0 1.4rem;
+  }
+
+  .header-logo img{
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (max-width:1000px) {
@@ -1903,11 +1920,27 @@ input::-moz-focus-inner {
 
 }
 
+@media screen and (max-width:720px) {
+  .header-main-nav {
+    font-size: 12px;
+  }
+
+  .header-main-nav li {
+    margin: 0 1.4rem;
+  }
+
+  .header-logo img{
+    width: 18%;
+    height: 20%;
+    margin-top: 3%;
+  }
+}
+
 @media screen and (max-width:600px) {
   .header-logo {
     left: 35px;
-    width: 30px;
-    height: 30px;
+    width: 35%;
+    height: 35%;
   }
 
 }
@@ -2370,9 +2403,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 60%;
-    left: 30%;
-    bottom: 10%;
+    top: 55%;
+    left: 10%;
+    bottom: 15%;
     right: 1%;
   }
 
