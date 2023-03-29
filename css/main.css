@@ -1982,9 +1982,8 @@ input::-moz-focus-inner {
 .intro-text {
   -webkit-transform: translate3d(0, -3.6rem, 0);
   transform: translate3d(0, -3.6rem, 0);
-  /* position: static; */
+  position: static;
   position: relative;
-  margin-left: -13%;
   z-index: 1;
 }
 
@@ -2015,7 +2014,6 @@ input::-moz-focus-inner {
   position: absolute;
   bottom: 8rem;
   left: 24px;
-  margin-left: -13%;
   z-index: 1;
 }
 
