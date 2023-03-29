@@ -1649,8 +1649,11 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 75px;
-  height: 75px;
+  width: 20%;
+  height: 20%;
+  margin-top: -3%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* -------------------------------------------------------------------
