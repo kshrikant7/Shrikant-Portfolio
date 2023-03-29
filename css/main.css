@@ -1954,7 +1954,7 @@ input::-moz-focus-inner {
   right: -10%;
   bottom: 10%;
   left: 50%;
-  /* border-radius: 50%; */
+  border-radius: 50%;
 }
 
 .intro-pic::before {
