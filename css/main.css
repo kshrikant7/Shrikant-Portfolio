@@ -1928,7 +1928,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-intro {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   min-height: 792px;
   background-color: #050505;
 }
@@ -1944,13 +1944,13 @@ input::-moz-focus-inner {
 }
 
 .intro-pic {
-  background-color: #02182c;
+  /* background-color: #02182c; */
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../images/Self_Photo.png); 
-  background-size: cover;
+  background-size: 90%;
   position: absolute;
-  top: 20%;
+  top: 25%;
   right: -10%;
   bottom: 10%;
   left: 50%;
