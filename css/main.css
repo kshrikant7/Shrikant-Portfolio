@@ -2492,6 +2492,70 @@ input::-moz-focus-inner {
 
 }
 
+@media screen and (max-width:450px) {
+  .s-intro {
+    min-height: 656px;
+  }
+
+  .intro-text h1 {
+    font-size: 4.5rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    bottom: 5%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .s-intro {
+    min-height: 656px;
+  }
+
+  .intro-text h1 {
+    font-size: 4.5rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    bottom: 13%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+}
+
+@media screen and (max-width:412px) {
+  .s-intro {
+    min-height: 656px;
+  }
+
+  .intro-text h1 {
+    font-size: 4.5rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    bottom: 10%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+}
+
+
 @media screen and (max-width:400px) {
   .s-intro {
     min-height: 656px;
@@ -2505,13 +2569,12 @@ input::-moz-focus-inner {
     position: absolute;
     top: 55%;
     left: 30%;
-    bottom: 10%;
+    bottom: 15%;
   }
 
   .intro-pic::before {
     opacity: .4;
   }
-
 }
 
 @media screen and (max-width:360px) {
@@ -4090,4 +4153,3 @@ html[data-useragent*='rv:11.0'] .ss-go-top::after {
   display: none;
 }
 
-/*# sourceMappingURL=main.css.map */
