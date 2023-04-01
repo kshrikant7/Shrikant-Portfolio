@@ -2003,9 +2003,9 @@ input::-moz-focus-inner {
   background-image: url(../images/Self_Photo.png); 
   background-size: cover;
   position: absolute;
-  margin-top: 7%;
+  margin-top: 3%;
   top: -5%;
-  right: 5%;
+  right: 2%;
   bottom: 5%;
   left: 15%;
   border-radius: 50%;
@@ -2106,7 +2106,6 @@ input::-moz-focus-inner {
     top: 33%;
     left: 25%;
     bottom: 25%;
-    right: -3%;
     margin-left: 25%;
   }
 
@@ -2117,6 +2116,54 @@ input::-moz-focus-inner {
 
 }
 
+@media screen and (max-width:1950px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    bottom: 20%;
+    margin-left: 25%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
+
+
+@media screen and (max-width:1900px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    bottom: 25%;
+    margin-left: 25%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
 @media screen and (max-width:1800px) {
   .intro-text h3 {
     font-size: 2.2rem;
@@ -2152,9 +2199,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 20%;
-    bottom: 15%;
+    bottom: 20%;
   }
 
   .intro-pic::before {
@@ -2201,7 +2248,7 @@ input::-moz-focus-inner {
     position: absolute;
     top: 25%;
     left: 27%;
-    bottom: 15%;
+    bottom: 20%;
   }
 
   .intro-pic::before {
@@ -2247,7 +2294,7 @@ input::-moz-focus-inner {
     position: absolute;
     top: 20%;
     left: 30%;
-    bottom: 15%;
+    bottom: 20%;
   }
 
   .intro-pic::before {
