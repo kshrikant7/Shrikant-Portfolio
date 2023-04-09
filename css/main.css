@@ -2000,7 +2000,7 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/Self_Photo.png); 
+  background-image: url(../images/Portfolio_Photo.jpg); 
   background-size: cover;
   position: absolute;
   margin-top: 3%;
@@ -2499,8 +2499,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 25%;
+    left: 25%;
     bottom: 25%;
   }
 
