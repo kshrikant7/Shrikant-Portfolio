@@ -2103,9 +2103,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 25%;
-    bottom: 25%;
+    bottom: 20%;
     margin-left: 25%;
   }
 
@@ -2127,9 +2127,32 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 45%;
+    top: 30%;
     left: 25%;
-    bottom: 23%;
+    bottom: 20%;
+    margin-left: 25%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
+@media screen and (max-width:1925px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    bottom: 20%;
     margin-left: 25%;
   }
 
@@ -2387,8 +2410,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 30%;
+    left: 20%;
     bottom: 20%;
   }
 
