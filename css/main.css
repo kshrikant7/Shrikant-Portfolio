@@ -2103,9 +2103,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 30%;
-    left: 25%;
-    bottom: 20%;
+    top: 33%;
+    left: 23%;
+    bottom: 23%;
     margin-left: 25%;
   }
 
@@ -2127,9 +2127,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 25%;
-    bottom: 20%;
+    bottom: 23
     margin-left: 25%;
   }
 
@@ -2150,10 +2150,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 30%;
-    left: 25%;
-    bottom: 20%;
-    margin-left: 25%;
+    top: 32%;
+    left: 23%;
+    bottom: 23%;
   }
 
   .intro-pic::before {
@@ -2175,8 +2174,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 33%;
+    left: 27%;
     bottom: 25%;
     margin-left: 25%;
   }
@@ -2199,9 +2198,8 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 30%;
-    left: 27%;
-    bottom: 20%;
-    margin-left: 25%;
+    left: 25%;
+    bottom: 25%;
   }
 
   .intro-pic::before {
@@ -2222,9 +2220,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 25%;
-    bottom: 23%;
+    bottom: 20%;
   }
 
   .intro-pic::before {
@@ -2246,7 +2244,30 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 25%;
+    bottom: 20%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
+
+@media screen and (max-width:1650px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 30%;
+    left: 28%;
     bottom: 20%;
   }
 
@@ -2271,7 +2292,30 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 30%;
+    bottom: 20%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
+
+@media screen and (max-width:1550px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 30%;
+    left: 28%;
     bottom: 20%;
   }
 
@@ -2294,8 +2338,31 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 30%;
-    left: 27%;
+    left: 30%;
     bottom: 20%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
+
+@media screen and (max-width:1450px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    bottom: 22%;
   }
 
   .intro-pic::before {
@@ -2316,8 +2383,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 27%;
+    left: 28%;
     bottom: 20%;
   }
 
@@ -2337,9 +2404,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 20%;
-    left: 30%;
-    bottom: 15%;
+    top: 30%;
+    left: 32%;
+    bottom: 20%;
   }
 
   .intro-pic::before {
@@ -2358,9 +2425,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 25%;
+    top: 27%;
     left: 25%;
-    bottom: 15%;
+    bottom: 18%;
   }
 
   .intro-pic::before {
@@ -2385,9 +2452,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 22%;
-    left: 23%;
-    bottom: 20%;
+    top: 30%;
+    left: 25%;
+    bottom: 18%;
   }
 
   .intro-pic::before {
@@ -2412,7 +2479,7 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 23%;
     bottom: 20%;
   }
 
@@ -2433,8 +2500,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 20%;
-    left: 22%;
+    top: 30%;
+    left: 25%;
     bottom: 15%;
   }
 
@@ -2457,8 +2524,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 23%;
-    left: 22%;
+    top: 30%;
+    left: 20%;
     bottom: 15%;
   }
 
@@ -2481,9 +2548,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 20%;
-    bottom: 20%;
+    bottom: 15%;
   }
 
   .intro-pic::before {
@@ -2503,9 +2570,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 20%;
-    bottom: 20%;
+    bottom: 15%;
     right: -2%;
   }
 
@@ -2524,7 +2591,7 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 20%;
     bottom: 25%;
   }
 
@@ -2586,8 +2653,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 22%;
-    left: 15%;
+    top: 28%;
+    left: 20%;
     bottom: 28%;
     right: -3%;
   }
@@ -2637,7 +2704,7 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 55%;
-    left: 15%;
+    left: 20%;
     bottom: 10%;
   }
 
@@ -2677,8 +2744,9 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 55%;
-    left: 10%;
+    left: 13%;
     bottom: 10%;
+    margin-right: 5%;
   }
 
   .intro-pic::before {
@@ -2757,9 +2825,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 45%;
-    left: 30%;
-    bottom: 5%;
+    top: 60%;
+    left: 10%;
+    bottom: 10%;
   }
 
   .intro-pic::before {
@@ -2778,8 +2846,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 58%;
-    left: 10%;
+    top: 60%;
+    left: 4%;
     bottom: 10%;
   }
 
@@ -2803,7 +2871,7 @@ input::-moz-focus-inner {
   .intro-pic {
     position: absolute;
     top: 60%;
-    left: 15%;
+    left: 2%;
     bottom: 10%;
   }
 
@@ -2819,8 +2887,8 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 55%;
-    left: 10%;
+    top: 60%;
+    left: 2%;
     bottom: 12%;
   }
 
