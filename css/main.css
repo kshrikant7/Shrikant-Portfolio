@@ -2129,7 +2129,7 @@ input::-moz-focus-inner {
     position: absolute;
     top: 35%;
     left: 25%;
-    bottom: 23
+    bottom: 23%;
     margin-left: 25%;
   }
 
@@ -2337,9 +2337,9 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 30%;
-    left: 30%;
-    bottom: 20%;
+    top: 27%;
+    left: 33%;
+    bottom: 17%;
   }
 
   .intro-pic::before {
