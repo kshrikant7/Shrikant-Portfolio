@@ -2092,6 +2092,30 @@ input::-moz-focus-inner {
  * responsive:
  * intro
  * ------------------------------------------------------------------- */
+ @media screen and (max-width:2050px) {
+  .intro-text h3 {
+    font-size: 2.2rem;
+  }
+
+  .intro-text h1 {
+    font-size: 7.2rem;
+  }
+
+  .intro-pic {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    bottom: 23%;
+    margin-left: 32%;
+    margin-right: -2%;
+  }
+
+  .intro-pic::before {
+    opacity: .4;
+  }
+  
+
+}
 @media screen and (max-width:2000px) {
   .intro-text h3 {
     font-size: 2.2rem;
@@ -2360,9 +2384,10 @@ input::-moz-focus-inner {
 
   .intro-pic {
     position: absolute;
-    top: 30%;
-    left: 20%;
-    bottom: 22%;
+    top: 26%;
+    left: 31%;
+    bottom: 20%;
+    right: 3%;
   }
 
   .intro-pic::before {
